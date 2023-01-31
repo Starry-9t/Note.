@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca3674b6-4ab2-4d30-a6e1-57d130eb1ef9" name="Changes" comment="" />
+    <list default="true" id="ed738971-5e52-4823-99a8-ccc00e5dabf6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\starryninet\.android\avd\Pixel_3a_API_33_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[TTDUT22517006143]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -24,25 +24,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="valueResourceFile" />
-        <option value="Class" />
-        <option value="resourceFile" />
         <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2JtB2sgYXBxRr2tdk8sEyQgzQQe" />
+  <component name="ProjectId" id="2KX4JD7zbVDzybeI4RoRpBOARvj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,11 +43,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.biji" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\biji\app\src\main\res\mipmap-xxxhdpi" />
+      <recent name="D:\biji2\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="D:\biji2\app\src\main\res\mipmap-xxxhdpi" />
+      <recent name="D:\biji2\app\src\main\res\xml" />
+      <recent name="D:\biji2\app\src\main\res\layout" />
+      <recent name="D:\biji2\app\src\main\java\com\example\biji" />
+    </key>
+    <key name="android.template.1391643858">
+      <recent name="com.example.biji" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.biji" />
+    </key>
+    <key name="android.template.-570684592">
+      <recent name="com.example.biji" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,11 +131,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ca3674b6-4ab2-4d30-a6e1-57d130eb1ef9" name="Changes" comment="" />
-      <created>1672887294357</created>
+      <changelist id="ed738971-5e52-4823-99a8-ccc00e5dabf6" name="Changes" comment="" />
+      <created>1674107520064</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1672887294357</updated>
+      <updated>1674107520064</updated>
     </task>
     <servers />
   </component>
