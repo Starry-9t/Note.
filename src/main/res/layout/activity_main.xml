@@ -1,48 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/main_layout"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@mipmap/backg">
 
-    <ListView
-        android:id="@+id/lv"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="8dp"
-        android:layout_below="@id/myToolbar"
-        android:divider="?attr/lvBackground"
-        android:dividerHeight="5dp"
+        android:layout_height="250dp">
 
-        android:background="@color/white"
+        <View
+            android:id="@+id/cloud"
+            android:layout_width="wrap_content"
+            android:layout_height="128dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="107dp"
+            android:background="@mipmap/cloud" />
+
+        <View
+            android:id="@+id/star_2"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="240dp"
+            android:layout_marginBottom="83dp"
+            android:background="@mipmap/star1" />
+
+        <View
+            android:id="@+id/star_3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="149dp"
+            android:layout_marginBottom="125dp"
+            android:background="@mipmap/star1" />
+
+        <View
+            android:id="@+id/star_4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="51dp"
+            android:layout_marginBottom="9dp"
+            android:background="@mipmap/star1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageButton
+            android:id="@+id/logo"
+            android:layout_width="143dp"
+            android:layout_height="138dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="1dp"
+            android:background="@mipmap/bi" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         >
-    </ListView>
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/myToolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
-        app:titleTextColor="?attr/titleColor"
-        android:theme="?attr/toolbarTheme"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="243dp"
+            android:text="Write Sth U Want"
+            android:textColor="#4C5870"
+            android:textSize="30dp" />
 
-    </androidx.appcompat.widget.Toolbar>
+        <ImageButton
+            android:id="@+id/ib_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="154dp"
+            android:layout_marginBottom="62dp"
+            android:background="@mipmap/buttona" />
+    </RelativeLayout>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="14dp"
-        android:clickable="true"
-        app:srcCompat="@drawable/ic_baseline_add_24" />
 
-</RelativeLayout>
+
+
+</LinearLayout>

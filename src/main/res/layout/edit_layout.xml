@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/bg">
+    android:layout_height="match_parent">
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_Toolbar"
@@ -22,11 +22,8 @@
     <EditText
         android:id="@+id/et"
         android:layout_width="match_parent"
-        android:layout_height="675dp"
-        android:gravity="bottom"
-
-        >
+        android:layout_height="500dp"
+        android:gravity="top">
 
     </EditText>
-
 </LinearLayout>

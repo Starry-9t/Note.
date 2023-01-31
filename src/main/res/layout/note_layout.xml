@@ -9,9 +9,9 @@
     android:paddingBottom="12dp"
     android:background="@drawable/note_shape"
     android:outlineAmbientShadowColor="@color/black">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
     <TextView
         android:id="@+id/tv_content"
         android:layout_width="wrap_content"
@@ -21,18 +21,19 @@
         android:textColor="?attr/tvMainColor"
         android:singleLine="true"/>
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="30dp"/>
     <TextView
-    android:id="@+id/tv_time"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Time"
-    android:textSize="10dp"
-    android:textColor="@color/greyC"/>
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
     <TextView
-    android:layout_width="match_parent"
-    android:layout_height="5dp"/>
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="10dp"
+        android:textColor="@color/grey9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
 
 </LinearLayout>
