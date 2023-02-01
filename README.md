@@ -1,7 +1,8 @@
 # 功能
-  
    一个笔记本程序，可以用来写备忘录和记账。
-   
+   ![image](https://github.com/Starry-9t/Note./blob/main/picture/0D46FF0A6DDE0B6481C478BE92D962B6.jpg)
+   ![image](https://github.com/Starry-9t/Note./blob/main/picture/43941EE573D43F5DE319A5114D791346.jpg)
+
 # 实现
 ###   记事
      1.主要分为主界面和文本编辑界面，核心就是把编辑界面输入的文本内容保存至数据库，经过适配器适配再传出到ListView显示。
